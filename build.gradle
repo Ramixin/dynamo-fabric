@@ -24,7 +24,7 @@ dependencies {
 
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-    include(implementation "com.github.Ramixin.stator:stator:${project.stator_version}:multiloader")
+    include(implementation "com.github.Ramixin.stator:stator:${project.stator_version}")
 }
 
 processResources {
